@@ -10,6 +10,7 @@ book:
     - part: "I: Fundamentos"
       chapters:
         - 01-fundamentos/variabilidad.qmd
+        - 01-fundamentos/safety-rail-effect.qmd
     - part: "II: Modelado"
       chapters:
         - 02-modelado/feature-models.qmd

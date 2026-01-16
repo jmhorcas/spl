@@ -1,0 +1,29 @@
+---
+title: "El Efecto Safety Rail"
+---
+
+El **Safety Rail Effect** (Efecto de Barandilla de Seguridad) es una metáfora en SPL que describe cómo las restricciones del sistema impiden que el usuario cometa errores de configuración, guiándolo siempre por un camino válido.
+
+En frameworks extensibles como **jMetal**, la infraestructura de la SPL actúa como una "guía física" que evita que el desarrollador "caiga" en errores de implementación.
+
+## Los Tres Pilares de la Barandilla
+
+### 1. Prevención de Inconsistencias Semánticas
+Las reglas del Modelo de Características (Cross-Tree Constraints) impiden combinar elementos incompatibles. 
+
+
+
+```{mermaid}
+graph TD
+    A[Algoritmo] --> B{Codificación}
+    B --> C[Binaria]
+    B --> D[Real]
+    A --> E{Operador Crossover}
+    E --> F[Single Point]
+    E --> G[SBX]
+    
+    G -.-> |Requiere| D
+    F -.-> |Excluye| D
+    
+    style G fill:#f96,stroke:#333
+    style C fill:#dfd,stroke:#333
