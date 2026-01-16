@@ -1,0 +1,64 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Variability book",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "01-fundamentos/safety-rail-effect.html",
+    "href": "01-fundamentos/safety-rail-effect.html",
+    "title": "2  El Efecto Safety Rail",
+    "section": "",
+    "text": "2.1 Los Tres Pilares de la Barandilla\nEl Safety Rail Effect (Efecto de Barandilla de Seguridad) es una metáfora en SPL que describe cómo las restricciones del sistema impiden que el usuario cometa errores de configuración, guiándolo siempre por un camino válido.\nEn frameworks extensibles como jMetal, la infraestructura de la SPL actúa como una “guía física” que evita que el desarrollador “caiga” en errores de implementación.",
+    "crumbs": [
+      "I: Fundamentos",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>El Efecto Safety Rail</span>"
+    ]
+  },
+  {
+    "objectID": "01-fundamentos/safety-rail-effect.html#los-tres-pilares-de-la-barandilla",
+    "href": "01-fundamentos/safety-rail-effect.html#los-tres-pilares-de-la-barandilla",
+    "title": "2  El Efecto Safety Rail",
+    "section": "",
+    "text": "2.1.1 1. Prevención de Inconsistencias Semánticas\nLas reglas del Modelo de Características (Cross-Tree Constraints) impiden combinar elementos incompatibles.\ngraph TD A[Algoritmo] –&gt; B{Codificación} B –&gt; C[Binaria] B –&gt; D[Real] A –&gt; E{Operador Crossover} E –&gt; F[Single Point] E –&gt; G[SBX]\nG -.-&gt; |Requiere| D\nF -.-&gt; |Excluye| D\n\nstyle G fill:#f96,stroke:#333\nstyle C fill:#dfd,stroke:#333",
+    "crumbs": [
+      "I: Fundamentos",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>El Efecto Safety Rail</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "4  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "5  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
