@@ -1,0 +1,33 @@
+project:
+  type: book
+
+book:
+  title: "Variability book"
+  author: "José Miguel Horcas"
+  date: "1/16/2026"
+  chapters:
+    - index.qmd
+    - part: "I: Fundamentos"
+      chapters:
+        - 01-fundamentos/variabilidad.qmd
+    - part: "II: Modelado"
+      chapters:
+        - 02-modelado/feature-models.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    toc: true
+  pdf:
+    documentclass: scrreprt
+    number-sections: true
+
+
+
