@@ -1,0 +1,37 @@
+project:
+  type: book
+  resources:
+    - "**/images/*"
+
+book:
+  title: "Líneas de Producto Software"
+  author: "José Miguel Horcas"
+  date: "1/16/2026"
+  page-navigation: true
+  page-footer: "Copyright 2026, José Miguel Horcas" 
+  chapters:
+    - index.qmd  # Portada del libro
+    - part: 01-part1/part1.qmd
+      chapters:
+        - 01-part1/ch01-intro/production.qmd
+        - 01-part1/ch01-intro/product-line.qmd
+
+bibliography: references.bib
+csl: https://www.zotero.org/styles/ieee
+citeproc: false
+link-citations: true
+
+filters:
+  - section-bibliographies.lua
+
+format:
+  html:
+    theme: cosmo
+    citeproc: true
+  pdf:
+    documentclass: book
+    cite-method: citeproc
+    pdf-engine: xelatex
+    fig-format: pdf
+    fig-graphics: true
+    
