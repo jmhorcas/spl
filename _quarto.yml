@@ -1,5 +1,7 @@
 project:
   type: book
+  resources:
+    - "**/images/*"
 
 book:
   title: "Líneas de Producto Software"
@@ -8,10 +10,11 @@ book:
   page-navigation: true
   page-footer: "Copyright 2026, José Miguel Horcas" 
   chapters:
-    - index.qmd
+    - index.qmd  # Portada del libro
     - part: part1.qmd
       chapters:
-        - 01-part1/intro.qmd
+        - 01-part1/ch01-intro/index.qmd
+        - 01-part1/ch01-intro/evolution.qmd
     - part: part2.qmd
     - part: part3.qmd
     - part: part4.qmd
@@ -24,4 +27,4 @@ format:
   html:
     theme: cosmo
   pdf:
-    documentclass: scrreprt
+    documentclass: book

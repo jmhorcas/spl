@@ -1,0 +1,94 @@
+---
+title: "De la artesanía a la personalización masiva"
+subtitle: "Evolución histórica de la producción y la variabilidad"
+---
+
+Para comprender qué es una **Línea de Productos** (*Product Line*, PL) y por qué se ha convertido en un pilar de la ingeniería y del desarrollo de software moderno, conviene dar un paso atrás y observar cómo ha evolucionado históricamente la forma en que producimos bienes.
+
+Desde una simple silla de madera hasta los sistemas software más complejos, la producción ha perseguido siempre un equilibrio —nunca trivial— entre **coste**, **velocidad** y **personalización**. 
+A lo largo del tiempo, este equilibrio ha dado lugar a tres grandes **paradigmas de producción**, que sirven como marco conceptual para entender las líneas de productos:
+
+- **Artesanía:** máxima personalización a costa de la eficiencia y la escalabilidad.
+- **Producción en masa:** eficiencia mediante estandarización y reducción de costes, sacrificando la personalización.
+- **Personalización masiva:** combinación de eficiencia y flexibilidad, gestionando la variabilidad de manera controlada.
+
+![Paradigmas de Producción](images/produccion.svg){#fig-produccion width="100%"}
+
+---
+
+## Artesanía
+
+Antes de la Revolución Industrial (siglos XVIII y XIX), la producción era fundamentalmente **artesanal**. 
+Un artesano experto diseñaba y fabricaba cada producto de manera individual, adaptándolo con precisión a las necesidades de un cliente concreto.
+
+Si alguien deseaba una mesa, esta se concebía y construía exclusivamente para él: se elegían los materiales, las dimensiones y los acabados de forma completamente personalizada.
+
+**Rasgos característicos:**
+
+- **Ventajas:**
+  - Personalización total.
+  - Alta calidad, directamente ligada a la habilidad del artesano.
+- **Limitaciones:**
+  - Proceso lento.
+  - Coste elevado.
+  - Escalabilidad prácticamente inexistente (un artesano solo puede producir una unidad a la vez).
+
+::: {#note-ProduccionArtesanal .callout-note title="Definición"}
+**Producción artesanal *(Handcrafting)***  
+Modelo de producción basado en la fabricación individual de cada producto, altamente personalizado, pero con baja eficiencia y escasa capacidad de escalado.
+:::
+
+En el ámbito del software, este modelo equivale a desarrollar un sistema **desde cero** para un único cliente, sin reutilizar componentes, arquitecturas ni soluciones previas. 
+Aunque viable en contextos muy específicos, resulta difícilmente sostenible a gran escala.
+
+---
+
+## Producción en masa
+
+Con la llegada de la Revolución Industrial y el trabajo pionero de Henry Ford a comienzos del siglo XX [-@Ford1922_MyLifeAndWork], surge la necesidad de fabricar **muchos productos, rápidamente y a bajo coste**. 
+La respuesta a este desafío fue la **producción en masa**.
+
+Este paradigma se sustenta en dos ideas fundamentales:
+
+1. **Líneas de ensamblaje:** el proceso productivo se divide en tareas simples, repetitivas y altamente especializadas.
+2. **Componentes estandarizados:** se diseñan piezas idénticas, intercambiables y reutilizables en todos los productos.
+
+El impacto fue revolucionario: los costes se redujeron drásticamente, los tiempos de producción disminuyeron y la calidad media mejoró gracias a la repetición y al control sistemático de cada componente. 
+Sin embargo, este éxito tuvo un precio claro: la **personalización prácticamente desapareció**.
+
+::: {#note-ProduccionMasa .callout-note title="Definición"}
+**Producción en masa *(Mass Production)***  
+Modelo de producción orientado a la eficiencia y al bajo coste mediante la estandarización de procesos y componentes, sacrificando la personalización del producto final.
+:::
+
+Un paralelismo claro en el mundo del software es el **software estándar** o *off-the-shelf*: soluciones de “talla única” (*one-size-fits-all*) como Microsoft Word, SAP o Windows. 
+Son productos robustos y ampliamente probados, pero todos los usuarios reciben exactamente el mismo sistema, sin posibilidad de adaptación individual.
+
+---
+
+## Personalización masiva
+
+A finales del siglo XX, y especialmente con la irrupción de Internet, el mercado deja de conformarse con productos uniformes. 
+Los clientes desean conservar las ventajas de la producción en masa —rapidez y bajo coste—, pero exigen al mismo tiempo **productos adaptados a sus necesidades específicas**.
+
+La **personalización masiva** surge como respuesta a esta demanda. Su principio fundamental puede resumirse como:
+
+> **Estandarización + Flexibilidad**
+
+En la práctica, esto se traduce en:
+
+- **Estandarización del núcleo:** el "corazón" del producto (estructura y componentes base) se produce de forma uniforme y eficiente.
+- **Flexibilidad en la configuración:** se ofrecen opciones controladas que permiten personalizar el producto final.
+
+::: {#note-PersonalizacionMasiva .callout-note title="Definición"}
+**Personalización masiva *(Mass Customization)***  
+Estrategia de producción que combina la eficiencia de la estandarización con la capacidad de ofrecer productos personalizados mediante mecanismos de configuración controlada.
+:::
+
+Este enfoque se apoya en el uso de **configuradores** o sistemas de opciones, que permiten seleccionar características dentro de un catálogo predefinido. Así, el cliente personaliza su producto mientras el productor mantiene los beneficios de la producción en masa.
+
+El ejemplo clásico es el de un automóvil: el chasis y el motor se fabrican en masa, pero el comprador elige el color, la tapicería o el sistema de sonido. En el software ocurre exactamente lo mismo.
+
+---
+
+La **Línea de Productos** es la aplicación sistemática de la personalización masiva al desarrollo de software: una forma de gestionar la variabilidad de manera controlada y eficiente sin renunciar a la productividad propia de la producción en masa.
