@@ -1,0 +1,97 @@
+# Paradigmas de producción
+*De la artesanía a la personalización masiva: Evolución histórica de la producción y la variabilidad*
+
+Para comprender qué es una **Línea de Productos** (*Product Line*, PL) y por qué se ha convertido en un pilar de la ingeniería y del desarrollo de software moderno, conviene dar un paso atrás y observar cómo ha evolucionado históricamente la forma en que producimos bienes.
+
+Desde una simple silla de madera hasta los sistemas software más complejos, la producción ha perseguido siempre un equilibrio —nunca trivial— entre **coste**, **eficiencia** (velocidad) y **personalización**. 
+A lo largo del tiempo, este equilibrio ha dado lugar a tres grandes **paradigmas de producción**, que sirven como marco conceptual para entender las líneas de productos:
+
+- **Artesanía:** máxima personalización a costa de la eficiencia y la escalabilidad.
+- **Producción en masa:** eficiencia mediante estandarización y reducción de costes, sacrificando la personalización.
+- **Personalización masiva:** combinación de eficiencia y flexibilidad, gestionando la variabilidad de manera controlada.
+
+![Paradigmas de Producción.](images/produccion.svg "Paradigmas de Producción"){#fig-produccion width="100%"}
+
+---
+
+## Artesanía
+
+Antes de la Revolución Industrial (siglos XVIII y XIX), la producción era fundamentalmente **artesanal**. 
+En este contexto, cada producto se diseñaba y fabricaba de manera individual, atendiendo a las necesidades específicas de un cliente concreto.
+
+::: {#note-ProduccionArtesanal .callout-note title="Definición"}
+**Producción artesanal (*Handcrafting*)**  
+Modelo de producción basado en la fabricación individual de cada producto, altamente personalizado, pero con baja eficiencia y escasa capacidad de escalado.
+:::
+
+Este modelo se distingue por ofrecer un grado de personalización total y una alta calidad, estrechamente ligada a la destreza y experiencia del artesano. 
+A cambio, presenta importantes limitaciones: el proceso es lento, costoso y difícilmente escalable, ya que cada unidad debe producirse de forma independiente.
+
+::: {.callout-tip title="Ejemplo"}
+Si alguien deseaba una mesa, el artesano la concebía y construía exclusivamente para ese cliente, eligiendo los materiales, las dimensiones y los acabados de forma completamente personalizada. 
+No existían dos mesas idénticas, ni procesos fácilmente reutilizables.
+:::
+
+En el ámbito del software, este enfoque equivale a desarrollar un sistema **desde cero** para un único cliente, sin reutilizar componentes, arquitecturas ni soluciones previas. 
+Aunque viable en contextos muy concretos, resulta difícilmente sostenible a gran escala cuando se requiere producir múltiples sistemas de forma eficiente.
+
+---
+
+## Producción en masa
+
+Con la llegada de la Revolución Industrial y el trabajo pionero de Henry Ford a comienzos del siglo XX [-@Ford1922_MyLifeAndWork], surge la necesidad de fabricar **muchos productos, rápidamente y a bajo coste**. 
+La respuesta a este desafío fue la **producción en masa** [-@Tseng2001_MassCustomization].
+
+::: {#note-ProduccionMasa .callout-note title="Definición"}
+**Producción en masa *(Mass Production)***  
+Modelo de producción orientado a la eficiencia y al bajo coste mediante la estandarización de procesos y componentes, sacrificando la personalización del producto final.
+:::
+
+Este paradigma se sustenta en dos ideas fundamentales:
+
+1. **Líneas de ensamblaje:** el proceso productivo se divide en tareas simples, repetitivas y altamente especializadas.
+2. **Componentes estandarizados:** se diseñan piezas idénticas, intercambiables y reutilizables en todos los productos.
+
+Estas ideas permitieron reducir drásticamente los costes de producción, acortar los tiempos de fabricación y mejorar la calidad media gracias al control sistemático de cada componente.
+El éxito de este modelo tuvo, no obstante, una consecuencia clara: la **personalización se vio severamente limitada**. 
+Todos los productos eran esencialmente iguales, y el cliente apenas tenía capacidad de elección.
+
+::: {.callout-tip title="Ejemplo"}
+En una fábrica de automóviles, cada vehículo se ensambla siguiendo exactamente el mismo proceso y utilizando las mismas piezas. 
+El resultado es un producto fiable y económico, pero prácticamente indistinguible del resto.
+:::
+
+Un paralelismo claro en el mundo del software es el **software estándar** o *off-the-shelf*: soluciones de "talla única" (*one-size-fits-all*) como Microsoft Word, SAP o Windows. 
+Son productos robustos y ampliamente probados, pero todos los usuarios reciben exactamente el mismo sistema, sin posibilidad de adaptación individual.
+
+---
+
+## Personalización masiva
+
+A finales del siglo XX, y especialmente con la irrupción de Internet, el mercado deja de conformarse con productos uniformes. 
+Los clientes desean conservar las ventajas de la producción en masa —rapidez y bajo coste—, pero exigen al mismo tiempo **productos adaptados a sus necesidades específicas**.
+
+::: {#note-PersonalizacionMasiva .callout-note title="Definición"}
+**Personalización masiva *(Mass Customization)***  
+Modelo de producción que combina la eficiencia de la estandarización con la capacidad de ofrecer productos personalizados mediante mecanismos de configuración controlada.
+:::
+
+La idea central de este paradigma puede resumirse como la combinación de **estandarización y flexibilidad**. 
+En la práctica, el núcleo del producto (su estructura y componentes base) se produce de forma uniforme y eficiente, mientras que la variabilidad se introduce de manera controlada en la fase de configuración final.
+
+Este enfoque se apoya en el uso de **configuradores** o sistemas de opciones, que permiten seleccionar características dentro de un catálogo predefinido. 
+De este modo, el cliente obtiene un producto personalizado sin que el productor renuncie a los beneficios de la producción en masa.
+
+::: {.callout-tip title="Ejemplo"}
+Al adquirir un automóvil, el chasis y el motor se fabrican en masa siguiendo procesos altamente estandarizados. 
+Sin embargo, el comprador puede elegir el color, la tapicería o el sistema de sonido, configurando un vehículo adaptado a sus preferencias personales.
+:::
+
+En el ámbito del software, este mismo principio permite ofrecer sistemas altamente configurables a partir de una base común. 
+El concepto de **Línea de Productos Software** constituye precisamente la aplicación sistemática de la personalización masiva al desarrollo de software.
+
+
+## Referencias {.sectionbibliography .unnumbered} 
+
+::: {.sectionrefs}
+:::

@@ -1,5 +1,7 @@
 # Líneas de Productos
 
+## Introducción a las Líneas de Productos
+
 > "Un cliente puede elegir cualquier color para su coche, siempre que sea negro."
 >
 > --- *Henry Ford, 1922*
@@ -17,7 +19,7 @@ En una Línea de Productos moderna, el objetivo es alcanzar la llamada **persona
 En otras palabras, aspiramos a mantener la eficiencia del modelo de Ford, pero permitiendo que cada cliente pueda, ahora sí, elegir el color de su coche.
 
 
-## Referencias
+## Referencias {.sectionbibliography}
 
-::: {#refs}
+::: {.sectionrefs}
 :::
