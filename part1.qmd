@@ -1,0 +1,23 @@
+# Líneas de Productos
+
+> "Un cliente puede elegir cualquier color para su coche, siempre que sea negro."
+>
+> --- *Henry Ford, 1922*
+
+La célebre afirmación de Ford y Crowther [-@Ford1922_MyLifeAndWork] resume de forma provocadora la filosofía de la producción en masa de principios del siglo XX. 
+Lejos de ser una simple exageración, esta frase tenía un fundamento estrictamente técnico: el color negro era el que se secaba con mayor rapidez.
+
+Esta ventaja logística permitía acelerar la cadena de montaje y reducir los costes al mínimo, a costa de eliminar cualquier posibilidad de elección para el cliente. 
+Se trataba de una producción eficiente, pero rígida, basada en la estandarización absoluta.
+
+Este escenario representa el extremo opuesto al concepto de **Línea de Productos**. 
+Mientras que Ford sacrificó la variabilidad en favor de la eficiencia, las líneas de productos persiguen precisamente lo contrario: **gestionar la variabilidad de forma sistemática y controlada, sin renunciar a la eficiencia.**
+
+En una Línea de Productos moderna, el objetivo es alcanzar la llamada **personalización masiva**: combinar la eficiencia de la producción en serie con la capacidad de ofrecer productos adaptados a las necesidades de cada cliente. 
+En otras palabras, aspiramos a mantener la eficiencia del modelo de Ford, pero permitiendo que cada cliente pueda, ahora sí, elegir el color de su coche.
+
+
+## Referencias
+
+::: {#refs}
+:::

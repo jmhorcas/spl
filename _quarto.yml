@@ -2,33 +2,26 @@ project:
   type: book
 
 book:
-  title: "Variability book"
+  title: "Líneas de Producto Software"
   author: "José Miguel Horcas"
   date: "1/16/2026"
+  page-navigation: true
+  page-footer: "Copyright 2026, José Miguel Horcas" 
   chapters:
     - index.qmd
-    - part: "I: Fundamentos"
+    - part: part1.qmd
       chapters:
-        - 01-fundamentos/variabilidad.qmd
-        - 01-fundamentos/safety-rail-effect.qmd
-    - part: "II: Modelado"
-      chapters:
-        - 02-modelado/feature-models.qmd
-    - intro.qmd
-    - summary.qmd
+        - 01-part1/intro.qmd
+    - part: part2.qmd
+    - part: part3.qmd
+    - part: part4.qmd
     - references.qmd
 
 bibliography: references.bib
+csl: https://www.zotero.org/styles/ieee
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    toc: true
+    theme: cosmo
   pdf:
     documentclass: scrreprt
-    number-sections: true
-
-
-
