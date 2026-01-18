@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Paradigmas de producción – Líneas de Producto Software</title>
+<title>2&nbsp; Línea de Productos – Líneas de Producto Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -50,7 +30,7 @@ div.csl-indent {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../01-part1/part1.html" rel="prev">
+<link href="../../01-part1/ch01-intro/production.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -93,7 +73,7 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating slimcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -102,7 +82,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../01-part1/part1.html">Líneas de Productos</a></li><li class="breadcrumb-item"><a href="../../01-part1/ch01-intro/produccion.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Paradigmas de producción</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../01-part1/part1.html">Líneas de Productos</a></li><li class="breadcrumb-item"><a href="../../01-part1/ch01-intro/product-line.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Línea de Productos</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -144,8 +124,14 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../01-part1/ch01-intro/produccion.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../01-part1/ch01-intro/production.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Paradigmas de producción</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../01-part1/ch01-intro/product-line.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Línea de Productos</span></span></a>
   </div>
 </li>
       </ul>
@@ -160,19 +146,20 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#artesanía" id="toc-artesanía" class="nav-link active" data-scroll-target="#artesanía"><span class="header-section-number">1.1</span> Artesanía</a></li>
-  <li><a href="#producción-en-masa" id="toc-producción-en-masa" class="nav-link" data-scroll-target="#producción-en-masa"><span class="header-section-number">1.2</span> Producción en masa</a></li>
-  <li><a href="#personalización-masiva" id="toc-personalización-masiva" class="nav-link" data-scroll-target="#personalización-masiva"><span class="header-section-number">1.3</span> Personalización masiva</a></li>
-  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  <li><a href="#ejemplos" id="toc-ejemplos" class="nav-link active" data-scroll-target="#ejemplos"><span class="header-section-number">2.1</span> Ejemplos</a>
+  <ul class="collapse">
+  <li><a href="#la-línea-de-productos-en-la-industria-automotriz" id="toc-la-línea-de-productos-en-la-industria-automotriz" class="nav-link" data-scroll-target="#la-línea-de-productos-en-la-industria-automotriz"><span class="header-section-number">2.1.1</span> La Línea de Productos en la industria automotriz</a></li>
+  <li><a href="#líneas-de-productos-en-contextos-cotidianos" id="toc-líneas-de-productos-en-contextos-cotidianos" class="nav-link" data-scroll-target="#líneas-de-productos-en-contextos-cotidianos"><span class="header-section-number">2.1.2</span> Líneas de Productos en contextos cotidianos</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../01-part1/part1.html">Líneas de Productos</a></li><li class="breadcrumb-item"><a href="../../01-part1/ch01-intro/produccion.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Paradigmas de producción</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../01-part1/part1.html">Líneas de Productos</a></li><li class="breadcrumb-item"><a href="../../01-part1/ch01-intro/product-line.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Línea de Productos</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Paradigmas de producción</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Línea de Productos</span></h1>
 </div>
 
 
@@ -189,147 +176,87 @@ div.csl-indent {
 </header>
 
 
-<p><em>De la artesanía a la personalización masiva: Evolución histórica de la producción y la variabilidad</em></p>
-<p>Para comprender qué es una <strong>Línea de Productos</strong> (<em>Product Line</em>, PL) y por qué se ha convertido en un pilar de la ingeniería y del desarrollo de software moderno, conviene dar un paso atrás y observar cómo ha evolucionado históricamente la forma en que producimos bienes.</p>
-<p>Desde una simple silla de madera hasta los sistemas software más complejos, la producción ha perseguido siempre un equilibrio —nunca trivial— entre <strong>coste</strong>, <strong>eficiencia</strong> (velocidad) y <strong>personalización</strong>. A lo largo del tiempo, este equilibrio ha dado lugar a tres grandes <strong>paradigmas de producción</strong>, que sirven como marco conceptual para entender las líneas de productos:</p>
-<ul>
-<li><strong>Artesanía:</strong> máxima personalización a costa de la eficiencia y la escalabilidad.</li>
-<li><strong>Producción en masa:</strong> eficiencia mediante estandarización y reducción de costes, sacrificando la personalización.</li>
-<li><strong>Personalización masiva:</strong> combinación de eficiencia y flexibilidad, gestionando la variabilidad de manera controlada.</li>
-</ul>
-<div id="fig-produccion" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-produccion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/produccion.svg" title="Paradigmas de Producción" class="img-fluid figure-img" style="width:100.0%">
+<p><em>El corazón de la variabilidad</em></p>
+<p>Tras el recorrido por la evolución de los paradigmas de producción —desde la artesanía hasta la personalización masiva—, podemos ya poner nombre a la estrategia que permite alcanzar un equilibrio sostenible entre eficiencia y personalización.</p>
+<p>Esa estrategia recibe el nombre de <strong>Línea de Productos</strong> y constituye uno de los conceptos centrales de la ingeniería moderna, y en particular del desarrollo de software basado en la reutilización sistemática.</p>
+<div id="note-ProductLine" class="callout callout-style-default callout-note callout-titled" title="Definición">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-produccion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: Paradigmas de Producción.
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Definición
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Línea de Productos <em>(Product Line, PL)</em></strong><br>
+Conjunto de productos de un mismo fabricante que comparten similitudes sustanciales y que se construyen, idealmente, a partir de un conjunto común de partes reutilizables.</p>
+</div>
+</div>
+<p>En lugar de diseñar un único producto estandarizado —la “talla única” propia de la producción en masa—, una Línea de Productos persigue atender distintos segmentos del mercado a partir de una base común. La clave está en una estrategia explícita de reutilización:</p>
+<ol type="1">
+<li>Se desarrolla un núcleo común de <strong>activos reutilizables</strong> (<strong><em>core assets</em></strong>).</li>
+<li>Se identifican los <strong>puntos de variación</strong> donde los productos deben diferir.</li>
+<li>Se definen <strong>variantes</strong> controladas que permiten adaptar el producto final.</li>
+</ol>
+<p>De este modo, no se construyen productos independientes, sino configuraciones distintas de una misma familia.</p>
+<blockquote class="blockquote">
+<p><strong>Línea de Productos = Reutilización sistemática + Capacidad de variación</strong></p>
+</blockquote>
+<p>Esta es, en esencia, la materialización de la personalización masiva aplicada a la ingeniería.</p>
+<hr>
+<section id="ejemplos" class="level2 page-columns page-full" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="ejemplos"><span class="header-section-number">2.1</span> Ejemplos</h2>
+<p>Para consolidar el concepto de <strong>Línea de Productos</strong>, resulta útil observar cómo esta idea se materializa en contextos reales. Los siguientes ejemplos muestran cómo la combinación de reutilización y variabilidad controlada se aplica tanto en industrias de alta ingeniería como en situaciones cotidianas.</p>
+<section id="la-línea-de-productos-en-la-industria-automotriz" class="level3 page-columns page-full" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="la-línea-de-productos-en-la-industria-automotriz"><span class="header-section-number">2.1.1</span> La Línea de Productos en la industria automotriz</h3>
+<p>La industria del automóvil es uno de los ejemplos más representativos de Línea de Productos. Un fabricante como <a href="https://www.bmw.es/es/configurador.html">BMW</a> (entre muchos otros) no ofrece un único vehículo, sino un conjunto coherente de modelos que cubren distintos segmentos del mercado: berlinas, familiares, deportivos o vehículos eléctricos.</p>
+<p>Aunque estos modelos difieren en precio, prestaciones o diseño exterior, comparten una parte sustancial de su ingeniería. Elementos como la plataforma del chasis, numerosos componentes electrónicos, los sistemas de infoentretenimiento o gran parte del software embarcado son activos reutilizables comunes.</p>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<div id="fig-configurador_automovil" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-configurador_automovil-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/configurador_automovil.png" title="Configurador de automóviles" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-configurador_automovil-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: Configurador de automóviles.
 </figcaption>
 </figure>
 </div>
-<hr>
-<section id="artesanía" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="artesanía"><span class="header-section-number">1.1</span> Artesanía</h2>
-<p>Antes de la Revolución Industrial (siglos XVIII y XIX), la producción era fundamentalmente <strong>artesanal</strong>. En este contexto, cada producto se diseñaba y fabricaba de manera individual, atendiendo a las necesidades específicas de un cliente concreto.</p>
-<div id="note-ProduccionArtesanal" class="callout callout-style-default callout-note callout-titled" title="Definición">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Definición
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Producción artesanal (<em>Handcrafting</em>)</strong><br>
-Modelo de producción basado en la fabricación individual de cada producto, altamente personalizado, pero con baja eficiencia y escasa capacidad de escalado.</p>
-</div>
-</div>
-<p>Este modelo se distingue por ofrecer un grado de personalización total y una alta calidad, estrechamente ligada a la destreza y experiencia del artesano. A cambio, presenta importantes limitaciones: el proceso es lento, costoso y difícilmente escalable, ya que cada unidad debe producirse de forma independiente.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Ejemplo">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Ejemplo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Si alguien deseaba una mesa, el artesano la concebía y construía exclusivamente para ese cliente, eligiendo los materiales, las dimensiones y los acabados de forma completamente personalizada. No existían dos mesas idénticas, ni procesos fácilmente reutilizables.</p>
-</div>
-</div>
-<p>En el ámbito del software, este enfoque equivale a desarrollar un sistema <strong>desde cero</strong> para un único cliente, sin reutilizar componentes, arquitecturas ni soluciones previas. Aunque viable en contextos muy concretos, resulta difícilmente sostenible a gran escala cuando se requiere producir múltiples sistemas de forma eficiente.</p>
-<hr>
+</div></div><p>La variabilidad se introduce de forma controlada a través de un <strong>configurador</strong>, que permite al cliente seleccionar opciones como el tipo de motor, el color, el equipamiento o los interiores. El producto final no se diseña desde cero, sino que se ensambla como una configuración concreta de la Línea de Productos, combinando componentes comunes con variantes predefinidas.</p>
+<p>El resultado es un equilibrio claro: el fabricante obtiene eficiencia gracias a la reutilización sistemática, mientras que el cliente percibe un vehículo adaptado a sus preferencias.</p>
 </section>
-<section id="producción-en-masa" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="producción-en-masa"><span class="header-section-number">1.2</span> Producción en masa</h2>
-<p>Con la llegada de la Revolución Industrial y el trabajo pionero de Henry Ford a comienzos del siglo XX <span class="citation" data-cites="Ford1922_MyLifeAndWork"><a href="#ref-Ford1922_MyLifeAndWork" role="doc-biblioref">[1]</a></span>, surge la necesidad de fabricar <strong>muchos productos, rápidamente y a bajo coste</strong>. La respuesta a este desafío fue la <strong>producción en masa</strong> <span class="citation" data-cites="Tseng2001_MassCustomization"><a href="#ref-Tseng2001_MassCustomization" role="doc-biblioref">[2]</a></span>.</p>
-<div id="note-ProduccionMasa" class="callout callout-style-default callout-note callout-titled" title="Definición">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="líneas-de-productos-en-contextos-cotidianos" class="level3 page-columns page-full" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="líneas-de-productos-en-contextos-cotidianos"><span class="header-section-number">2.1.2</span> Líneas de Productos en contextos cotidianos</h3>
+<p>El mismo principio aparece en contextos mucho más cercanos, como los restaurantes de comida rápida. En estos entornos, no se gestionan cientos de productos independientes, sino auténticas Líneas de Productos.</p>
+<p>Un ejemplo habitual es el de un menú de ensaladas que permite al cliente elegir los ingredientes. El restaurante mantiene un conjunto común de componentes —bases, proteínas, salsas y acompañamientos— y ofrece un mecanismo de selección mediante el cual cada cliente configura su plato. No existen ensaladas completamente distintas, sino múltiples combinaciones posibles a partir de un mismo conjunto de ingredientes reutilizables.</p>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<div id="fig-configurador_burger" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-configurador_burger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/configurador_burger.png" title="Configurador de comida rápida" class="img-fluid figure-img" style="width:100.0%">
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Definición
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-configurador_burger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.2: Configurador de comida rápida.
+</figcaption>
+</figure>
 </div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Producción en masa <em>(Mass Production)</em></strong><br>
-Modelo de producción orientado a la eficiencia y al bajo coste mediante la estandarización de procesos y componentes, sacrificando la personalización del producto final.</p>
-</div>
-</div>
-<p>Este paradigma se sustenta en dos ideas fundamentales:</p>
-<ol type="1">
-<li><strong>Líneas de ensamblaje:</strong> el proceso productivo se divide en tareas simples, repetitivas y altamente especializadas.</li>
-<li><strong>Componentes estandarizados:</strong> se diseñan piezas idénticas, intercambiables y reutilizables en todos los productos.</li>
-</ol>
-<p>Estas ideas permitieron reducir drásticamente los costes de producción, acortar los tiempos de fabricación y mejorar la calidad media gracias al control sistemático de cada componente. El éxito de este modelo tuvo, no obstante, una consecuencia clara: la <strong>personalización se vio severamente limitada</strong>. Todos los productos eran esencialmente iguales, y el cliente apenas tenía capacidad de elección.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Ejemplo">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Ejemplo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>En una fábrica de automóviles, cada vehículo se ensambla siguiendo exactamente el mismo proceso y utilizando las mismas piezas. El resultado es un producto fiable y económico, pero prácticamente indistinguible del resto.</p>
-</div>
-</div>
-<p>Un paralelismo claro en el mundo del software es el <strong>software estándar</strong> o <em>off-the-shelf</em>: soluciones de “talla única” (<em>one-size-fits-all</em>) como Microsoft Word, SAP o Windows. Son productos robustos y ampliamente probados, pero todos los usuarios reciben exactamente el mismo sistema, sin posibilidad de adaptación individual.</p>
+</div></div><p>Algo similar ocurre con las hamburguesas configurables. El establecimiento parte de una base estandarizada (pan y carne) y permite seleccionar distintos extras (tomate, queso, bacon,…) para generar una gran variedad de productos finales sin modificar el proceso productivo subyacente.</p>
+<p>En ambos casos, la estrategia es idéntica: el productor maximiza la eficiencia reutilizando los mismos componentes, mientras que el cliente obtiene un producto ajustado a sus preferencias sin incurrir en los costes de una producción totalmente artesanal.</p>
 <hr>
+<p>Estos ejemplos ilustran que una Línea de Productos no depende del dominio ni de la complejidad técnica del producto. Se trata de una estrategia general para gestionar la variabilidad de forma sistemática, apoyándose en la reutilización y en la configuración controlada.</p>
+<p>Este mismo principio es el que se traslada al desarrollo de software cuando hablamos de Líneas de Productos Software, donde la variabilidad deja de ser un problema ad hoc y pasa a convertirse en un elemento central del diseño.</p>
 </section>
-<section id="personalización-masiva" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="personalización-masiva"><span class="header-section-number">1.3</span> Personalización masiva</h2>
-<p>A finales del siglo XX, y especialmente con la irrupción de Internet, el mercado deja de conformarse con productos uniformes. Los clientes desean conservar las ventajas de la producción en masa —rapidez y bajo coste—, pero exigen al mismo tiempo <strong>productos adaptados a sus necesidades específicas</strong>.</p>
-<div id="note-PersonalizacionMasiva" class="callout callout-style-default callout-note callout-titled" title="Definición">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Definición
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Personalización masiva <em>(Mass Customization)</em></strong><br>
-Modelo de producción que combina la eficiencia de la estandarización con la capacidad de ofrecer productos personalizados mediante mecanismos de configuración controlada.</p>
-</div>
-</div>
-<p>La idea central de este paradigma puede resumirse como la combinación de <strong>estandarización y flexibilidad</strong>. En la práctica, el núcleo del producto (su estructura y componentes base) se produce de forma uniforme y eficiente, mientras que la variabilidad se introduce de manera controlada en la fase de configuración final.</p>
-<p>Este enfoque se apoya en el uso de <strong>configuradores</strong> o sistemas de opciones, que permiten seleccionar características dentro de un catálogo predefinido. De este modo, el cliente obtiene un producto personalizado sin que el productor renuncie a los beneficios de la producción en masa.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Ejemplo">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Ejemplo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Al adquirir un automóvil, el chasis y el motor se fabrican en masa siguiendo procesos altamente estandarizados. Sin embargo, el comprador puede elegir el color, la tapicería o el sistema de sonido, configurando un vehículo adaptado a sus preferencias personales.</p>
-</div>
-</div>
-<p>En el ámbito del software, este mismo principio permite ofrecer sistemas altamente configurables a partir de una base común. El concepto de <strong>Línea de Productos Software</strong> constituye precisamente la aplicación sistemática de la personalización masiva al desarrollo de software.</p>
 </section>
-<section id="referencias" class="level2 sectionbibliography unnumbered">
-<h2 class="sectionbibliography unnumbered anchored" data-anchor-id="referencias">Referencias</h2>
+<section id="referencias" class="level2 sectionbibliography unnumbered unlisted">
+<h2 class="sectionbibliography unnumbered unlisted anchored" data-anchor-id="referencias">Referencias</h2>
 <div class="sectionrefs">
 
 </div>
 
 
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-Ford1922_MyLifeAndWork" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div class="csl-right-inline">H. Ford and S. Crowther, <em>My life and work</em>. Garden City, NY: Doubleday, Page &amp; Company, 1922.</div>
-</div>
-<div id="ref-Tseng2001_MassCustomization" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div class="csl-right-inline">M. M. Tseng and J. Jiao, <span>“Mass <span>Customization</span>,”</span> in <em>Handbook of <span>Industrial</span> <span>Engineering</span></em>, John Wiley &amp; Sons, Ltd, 2001, pp. 684–709. doi: <a href="https://doi.org/10.1002/9780470172339.ch25">10.1002/9780470172339.ch25</a>.</div>
-</div>
-</div>
 </section>
 
 </main> <!-- /main -->
@@ -735,8 +662,8 @@ Modelo de producción que combina la eficiencia de la estandarización con la ca
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../01-part1/part1.html" class="pagination-link" aria-label="Líneas de Productos">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Líneas de Productos</span>
+      <a href="../../01-part1/ch01-intro/production.html" class="pagination-link" aria-label="Paradigmas de producción">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Paradigmas de producción</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
