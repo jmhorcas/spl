@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-0dd2bd5de344125cf763a379ddc3eb04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -214,12 +217,12 @@ Conjunto de productos de un mismo fabricante que comparten similitudes sustancia
 <p>Aunque estos modelos difieren en precio, prestaciones o diseño exterior, comparten una parte sustancial de su ingeniería. Elementos como la plataforma del chasis, numerosos componentes electrónicos, los sistemas de infoentretenimiento o gran parte del software embarcado son activos reutilizables comunes.</p>
 
 <div class="no-row-height column-margin column-container"><div class="margin-aside">
-<div id="fig-configurador_automovil" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-AutomobileConfigurator" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-configurador_automovil-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/configurador_automovil.png" title="Configurador de automóviles" class="img-fluid figure-img" style="width:100.0%">
+<div aria-describedby="fig-AutomobileConfigurator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/configurador_automovil.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;2.1: Configurador de automóviles."><img src="images/configurador_automovil.png" title="Configurador de automóviles" class="img-fluid figure-img"></a>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-configurador_automovil-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-AutomobileConfigurator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2.1: Configurador de automóviles.
 </figcaption>
 </figure>
@@ -233,12 +236,12 @@ Figure&nbsp;2.1: Configurador de automóviles.
 <p>Un ejemplo habitual es el de un menú de ensaladas que permite al cliente elegir los ingredientes. El restaurante mantiene un conjunto común de componentes —bases, proteínas, salsas y acompañamientos— y ofrece un mecanismo de selección mediante el cual cada cliente configura su plato. No existen ensaladas completamente distintas, sino múltiples combinaciones posibles a partir de un mismo conjunto de ingredientes reutilizables.</p>
 
 <div class="no-row-height column-margin column-container"><div class="margin-aside">
-<div id="fig-configurador_burger" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-FastFoodConfigurator" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-configurador_burger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/configurador_burger.png" title="Configurador de comida rápida" class="img-fluid figure-img" style="width:100.0%">
+<div aria-describedby="fig-FastFoodConfigurator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/configurador_burger.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2.2: Configurador de comida rápida."><img src="images/configurador_burger.png" title="Configurador de comida rápida" class="img-fluid figure-img"></a>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-configurador_burger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-FastFoodConfigurator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2.2: Configurador de comida rápida.
 </figcaption>
 </figure>
@@ -683,6 +686,38 @@ Figure&nbsp;2.2: Configurador de comida rápida.
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
