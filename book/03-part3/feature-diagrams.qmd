@@ -1,0 +1,7 @@
+# Diagramas de Características
+
+
+## Referencias {.sectionbibliography .unnumbered .unlisted} 
+
+::: {.sectionrefs}
+:::

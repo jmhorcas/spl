@@ -1,0 +1,13 @@
+# Modelos de Variabilidad
+
+::: {.callout-note title="Definición" #note-VariabilityModeling}
+**Modelado de la variabilidad *(Variability modeling)***  
+El **modelado de la variabilidad** es el proceso de identificar, representar y organizar explícitamente la variabilidad presente en una SPL.
+:::
+
+
+
+## Referencias {.sectionbibliography .unnumbered .unlisted} 
+
+::: {.sectionrefs}
+:::

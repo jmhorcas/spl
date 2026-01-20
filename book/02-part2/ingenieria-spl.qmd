@@ -1,0 +1,7 @@
+# SPLs en la práctica
+
+
+## Referencias {.sectionbibliography .unnumbered .unlisted} 
+
+::: {.sectionrefs}
+:::

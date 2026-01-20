@@ -1,25 +1,25 @@
-# Línea de Productos
+# Línea de productos {#chp-PL}
 *El corazón de la variabilidad*
 
 Tras el recorrido por la evolución de los paradigmas de producción —desde la artesanía hasta la personalización masiva—, podemos ya poner nombre a la estrategia que permite alcanzar un equilibrio sostenible entre eficiencia y personalización.
 
-Esa estrategia recibe el nombre de **Línea de Productos** y constituye uno de los conceptos centrales de la ingeniería moderna, y en particular del desarrollo de software basado en la reutilización sistemática.
+Esa estrategia recibe el nombre de **línea de productos** y constituye uno de los conceptos centrales de la ingeniería moderna, y en particular del desarrollo de software basado en la reutilización sistemática.
 
 ::: {.callout-note title="Definición" #note-ProductLine}
-**Línea de Productos *(Product Line, PL)***  
-Conjunto de productos de un mismo fabricante que comparten similitudes sustanciales y que se construyen, idealmente, a partir de un conjunto común de partes reutilizables.
+**Línea de productos *(Product Line, PL)***  
+Una **línea de productos** es un conjunto de productos de un mismo fabricante que comparten similitudes sustanciales y que se construyen a partir de un conjunto común de partes reutilizables.
 :::
 
 En lugar de diseñar un único producto estandarizado —la "talla única" propia de la producción en masa—, una Línea de Productos persigue atender distintos segmentos del mercado a partir de una base común.
 La clave está en una estrategia explícita de reutilización:
 
-1. Se desarrolla un núcleo común de **activos reutilizables** (***core assets***).
+1. Se desarrolla un núcleo común de **activos reutilizables** (*core assets*).
 2. Se identifican los **puntos de variación** donde los productos deben diferir.
 3. Se definen **variantes** controladas que permiten adaptar el producto final.
 
 De este modo, no se construyen productos independientes, sino configuraciones distintas de una misma familia.
 
-> **Línea de Productos = Reutilización sistemática + Capacidad de variación**
+> **Línea de productos = reutilización sistemática + capacidad de variación**
 
 
 Esta es, en esencia, la materialización de la personalización masiva aplicada a la ingeniería.

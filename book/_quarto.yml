@@ -13,10 +13,28 @@ book:
   page-footer: "Copyright 2026, José Miguel Horcas" 
   chapters:
     - index.qmd  # Portada del libro
-    - part: 01-part1/part1.qmd
+    - part: 01-part1/index.qmd
       chapters:
-        - 01-part1/ch01-intro/production.qmd
-        - 01-part1/ch01-intro/product-line.qmd
+        - 01-part1/production.qmd
+        - 01-part1/product-line.qmd
+        - 01-part1/software-product-line.qmd
+        - 01-part1/spls-in-practice.qmd
+    - part: 02-part2/index.qmd
+      chapters:
+        - 02-part2/ingenieria-spl.qmd
+    - part: 03-part3/index.qmd
+      chapters:
+        - 03-part3/variability-models.qmd
+        - 03-part3/feature-models.qmd
+        - 03-part3/feature-diagrams.qmd
+        - 03-part3/configurations.qmd
+        - 03-part3/textual-languages.qmd
+        - 03-part3/uvl.qmd
+    - part: 04-part4/index.qmd
+      chapters:
+        - 04-part4/aafms.qmd
+        - 04-part4/analysis-operations.qmd
+        
 
 bibliography: references.bib
 csl: https://www.zotero.org/styles/ieee

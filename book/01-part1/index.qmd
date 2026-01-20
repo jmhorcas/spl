@@ -1,12 +1,12 @@
 # Líneas de Productos
 
-## Introducción a las Líneas de Productos
+## Introducción a las Líneas de Producto
 
 > "Un cliente puede elegir cualquier color para su coche, siempre que sea negro."
 >
 > --- *Henry Ford, 1922*
 
-La célebre afirmación de Ford y Crowther [-@Ford1922_MyLifeAndWork] resume de forma provocadora la filosofía de la producción en masa de principios del siglo XX. 
+La célebre afirmación de Ford y Crowther [@Ford1922_MyLifeAndWork] resume de forma provocadora la filosofía de la producción en masa de principios del siglo XX. 
 Lejos de ser una simple exageración, esta frase tenía un fundamento estrictamente técnico: el color negro era el que se secaba con mayor rapidez.
 
 Esta ventaja logística permitía acelerar la cadena de montaje y reducir los costes al mínimo, a costa de eliminar cualquier posibilidad de elección para el cliente. 
