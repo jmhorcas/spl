@@ -30,3 +30,14 @@ Si necesita “Sección X.Y”, probablemente es demasiado grande.
 - Figura principal → cuerpo del texto; Figura aclaratoria → margen (.aside)
 
 - Cada .qmd: una idea principal, reutilizable, enlazable, fácil de mantener.
+
+- Cuando introduzcas algo conceptual o metodológico → define el proceso.
+Cuando introduzcas algo formal, manipulable o analizable → define el modelo.
+Ejemplos:
+Modelado de características → proceso
+Modelo de características → artefacto
+Configuración → proceso
+Configuración válida → resultado
+
+- Cuando definas un concepto clave: Repite el término definido como sujeto de la frase.
+Esto: refuerza el concepto en la mente del lector, evita ambigüedades, y facilita que el texto se lea de forma aislada.
